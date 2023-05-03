@@ -1,0 +1,28 @@
+{
+  "name": "mevn-slideshow-app",
+  "version": "1.0.0",
+  "description": "make slideshows",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/Users/zach/Desktop/GitHub/MEVN-Slideshow-app"
+  },
+  "keywords": [
+    "slideshow"
+  ],
+  "author": "Zacharias_xD",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
